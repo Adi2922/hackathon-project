@@ -1,0 +1,42 @@
+/* Navbar Customization */
+.navbar-custom {
+  background-color: #1c2833 !important; /* Dark blue-gray */
+  border: none; /* Remove any border */
+  box-shadow: none; /* Remove box shadow */
+}
+
+/* Navbar Links */
+.navbar-custom .nav-link {
+  color: #ffffff !important; /* White text */
+  font-weight: bold;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #FFD700 !important; /* Gold on hover */
+}
+
+/* Navbar Brand */
+.navbar-custom .navbar-brand {
+  color: #ffffff !important; /* White brand text */
+  font-weight: bold;
+}
+
+/* Search Box */
+.navbar-custom .form-control {
+  background-color: #2e4053; /* Dark gray */
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.navbar-custom .btn-outline-light {
+  border-color: #46c93d;
+  color: #16d32f;
+  transition: all 0.3s ease;
+}
+
+.navbar-custom .btn-outline-light:hover {
+  background-color: #0ec411;
+  color: #000000;
+}
